@@ -35,3 +35,12 @@ video {
 .height-adjustment {
   height: 80vh;
 }
+
+.validator-height {
+  height: 30vh;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url(../img/pexels-element-digital-1051075.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
