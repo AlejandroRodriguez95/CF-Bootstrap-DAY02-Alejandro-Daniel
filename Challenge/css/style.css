@@ -1,0 +1,37 @@
+.hero {
+  max-height: 90vh;
+  /* background: blue; */
+}
+
+.carousel-item {
+  height: 90vh;
+  overflow: hidden;
+}
+
+img,
+video {
+  object-fit: cover;
+  height: 90vh;
+}
+
+.carousel-caption {
+  background: rgba(61, 61, 61, 0.692);
+  border-radius: 1rem;
+}
+
+.card-section {
+  height: 80vh;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(12, 12, 12, 0.377)
+    ),
+    url(../img/pexels-element-digital-1051075.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.height-adjustment {
+  height: 80vh;
+}
